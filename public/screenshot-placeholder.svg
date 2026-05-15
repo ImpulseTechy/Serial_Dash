@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" rx="28" fill="#f1f5f9"/>
+  <rect x="32" y="32" width="1136" height="80" rx="16" fill="#ffffff"/>
+  <rect x="32" y="136" width="240" height="552" rx="16" fill="#ffffff"/>
+  <rect x="296" y="136" width="872" height="552" rx="16" fill="#ffffff"/>
+  <text x="600" y="376" fill="#64748b" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">SerialDash Screenshot Placeholder</text>
+</svg>
