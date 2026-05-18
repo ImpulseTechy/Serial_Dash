@@ -4,6 +4,7 @@ const YOUTUBE_URL = 'https://www.youtube.com/@ImpulseTech'
 const INSTAGRAM_URL = 'https://www.instagram.com/impulsetechy/'
 const GITHUB_URL = 'https://github.com/ImpulseTechy/'
 const LINKEDIN_URL = 'https://www.linkedin.com/in/yogesh-bawane/'
+const PORTFOLIO_URL = 'https://www.yogeshbawane.in/'
 
 function AboutModal({ onClose }) {
   useEffect(() => {
@@ -76,6 +77,20 @@ function AboutModal({ onClose }) {
               <div className="flex-1 text-left">
                 <div className="text-sm font-bold">Follow on Instagram</div>
                 <div className="text-xs text-white/90">@impulsetechy</div>
+              </div>
+              <span className="text-lg">→</span>
+            </a>
+
+            <a
+              href={PORTFOLIO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 rounded-xl bg-indigo-600 px-4 py-3 font-semibold text-white transition hover:bg-indigo-700"
+            >
+              <PortfolioIcon />
+              <div className="flex-1 text-left">
+                <div className="text-sm font-bold">Portfolio Website</div>
+                <div className="text-xs text-indigo-100">www.yogeshbawane.in</div>
               </div>
               <span className="text-lg">→</span>
             </a>
@@ -172,6 +187,25 @@ function LinkedInIcon() {
       aria-hidden="true"
     >
       <path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5V9h3v10Zm-1.5-11.4a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM19 19h-3v-5.2c0-1.3-.5-2.1-1.6-2.1-.9 0-1.4.6-1.6 1.2 0 .2-.1.5-.1.8V19h-3V9h3v1.3a3 3 0 0 1 2.7-1.5c2 0 3.5 1.3 3.5 4.1V19Z" />
+    </svg>
+  )
+}
+
+function PortfolioIcon() {
+  return (
+    <svg
+      className="size-7 shrink-0"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      <path d="M2 12h20" />
     </svg>
   )
 }
